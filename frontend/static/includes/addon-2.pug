@@ -1,0 +1,30 @@
+.CustomizePopup__choicOfAddon
+              p(class="sofia-semibold size-18") Choice of Add On
+          
+              .row-label         
+                - for(let i = 0 ; i < 3 ; i++)    
+        
+                    label(class="choice-row sofia-medium size-14" for=`${i+10}`) 
+                      span Pepper  julienned
+                    
+                      span(class="choice-row__rightside--price sofia-L size-14 grey") +$2.30
+                      input(type="radio" name="choice-2-Legend-Choice-1" id=`${i+10}`)
+                      span(class="dummyspan")
+              .row-label         
+                - for(let i = 0 ; i < 3 ; i++)    
+        
+                    label(class="choice-row sofia-medium size-14" for=`${i+13}`) 
+                      span Baby Spinach
+                    
+                      span(class="choice-row__rightside--price sofia-L size-14 grey") +$2.30
+                      input(type="radio" name="choice-2-Legend-Choice-2" id=`${i+13}`)
+                      span(class="dummyspan")
+              .row-label         
+                - for(let i = 0 ; i < 3 ; i++)    
+        
+                    label(class="choice-row sofia-medium size-14" for=`${i+16}`) 
+                      span Mushrom
+                    
+                      span(class="choice-row__rightside--price sofia-L size-14 grey") +$2.30
+                      input(type="radio" name="choice-2-Legend-Choice-3" id=`${i+16}`)
+                      span(class="dummyspan")

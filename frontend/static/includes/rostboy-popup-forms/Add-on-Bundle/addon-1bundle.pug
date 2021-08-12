@@ -1,0 +1,30 @@
+.CustomizePopup__choicOfAddon
+              p(class="sofia-semibold size-18") Choice of Add On
+          
+              .row-label         
+                - for(let i = 0 ; i < 3 ; i++)    
+        
+                    label(class="choice-row sofia-medium size-14" for=`${i+1}rostboyBundle`) 
+                      span Pepper  julienned
+                    
+                      span(class="choice-row__rightside--price sofia-L size-14 grey") +$2.30
+                      input(type="radio" name="rostboyBundleChoiceAddon1-row1" id=`${i+1}rostboyBundle`)
+                      span(class="dummyspan")
+              .row-label         
+                - for(let i = 0 ; i < 3 ; i++)    
+        
+                    label(class="choice-row sofia-medium size-14" for=`${i+4}rostboyBundle`) 
+                      span Baby Spinach
+                    
+                      span(class="choice-row__rightside--price sofia-L size-14 grey") +$2.30
+                      input(type="radio" name="rostboyBundleChoiceAddon1-row2" id=`${i+4}rostboyBundle`)
+                      span(class="dummyspan")
+              .row-label         
+                - for(let i = 0 ; i < 3 ; i++)    
+        
+                    label(class="choice-row sofia-medium size-14" for=`${i+7}rostboyBundle`) 
+                      span Mushrom
+                    
+                      span(class="choice-row__rightside--price sofia-L size-14 grey") +$2.30
+                      input(type="radio" name="rostboyBundleChoiceAddon1-row3" id=`${i+7}rostboyBundle`)
+                      span(class="dummyspan")

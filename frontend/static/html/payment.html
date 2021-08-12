@@ -1,0 +1,100 @@
+<div class="payment animate">
+  <div class="navbar single checkoutnav">
+    <div class="container">
+      <p class="intro-rust-r white size-36 borwsetext checkoutbrowse ">Checkout &amp; pay</p>
+      <div class="logo logo-navbar checkoutlogo">
+        <img src="/static/imgs/img-13.png" />
+      </div>
+    </div>
+  </div>
+  <div class="form-payment">
+    <form action="">
+      <div class="form-payment__header">
+        <h3 class="intro-rust-r white size-28 uppercase txt-cntr">
+          select payment method
+        </h3>
+      </div>
+      <div class="form-payment__group">
+        <div class="input-group selectmethod">
+          <a href="#"> <img src="/static/imgs/plus.png" /></a>
+        </div>
+        <div class="input-group selectmethod">
+          <input type="radio" name="selectedmethod" id="mastercard" />
+          <label for="mastercard">
+            <img src="/static/imgs/Mastercard.png"
+          /></label>
+        </div>
+        <div class="input-group selectmethod">
+          <input type="radio" name="selectedmethod" id="paypal" />
+          <label for="paypal"><img src="/static/imgs/paypal.png" /></label>
+        </div>
+        <div class="input-group selectmethod">
+          <input type="radio" name="selectedmethod" id="apple" />
+          <label for="apple"><img src="/static/imgs/Apple.png" /></label>
+        </div>
+      </div>
+      <div class="input-group">
+        <label class="size-16 sofia-r white">Name</label>
+        <input
+          type="text"
+          name="nameLoyal"
+          placeholder="Arlene Mccoy"
+          class="nameholder"
+        />
+        <p class="error"></p>
+        <span class="icon-checkmark"></span>
+      </div>
+      <div class="input-group middle">
+        <label class="size-16 sofia-r white">Card Number</label>
+        <input
+          class="cardnumber"
+          type="text"
+          placeholder="456547988"
+          maxlength="19"
+          autocomplete="off"
+        />
+        <p class="error"></p>
+        <input type="hidden" id="raw_data" />
+        <span class="icon-checkmark"></span>
+      </div>
+      <div class="input-group datacard">
+        <div class="input-group__expires">
+          <label class="size-16 sofia-r white">Expires</label>
+          <input
+            type="text"
+            placeholder="02/12"
+            class="expirydate"
+            maxlength="5"
+          />
+          <p class="error"></p>
+          <span class="icon-checkmark"></span>
+        </div>
+        <div class="input-group__cvv">
+          <label class="size-16 sofia-r white">CVV</label>
+          <input type="text" placeholder="5153" maxlength="4" class="cvv" />
+          <p class="error"></p>
+          <span class="icon-checkmark"></span>
+        </div>
+      </div>
+      <div class="totalCheckout">
+        <ul>
+          <li>
+            <span>Total </span><span>$59.08 <sup>SGD</sup></span>
+          </li>
+        </ul>
+      </div>
+      <div class="input-group">
+        <button type="submit" class="continueBtn paymnetBtn">
+          confirm order
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div class="containerloading">
+  <div class="box">
+    <p class="sofia-r size-28 white txt-cntr">Processing Payment</p>
+    <div id="loading"></div>
+  </div>
+</div>

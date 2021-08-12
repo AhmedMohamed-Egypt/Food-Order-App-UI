@@ -1,0 +1,36 @@
+div(class="cros-popup--legend contentpopup closegenralpopup")
+
+    .CustomizePopup 
+        .CustomizePopup__header
+        img(src="../imgs/headerpopup.png")
+        .CustomizePopup__title  
+         h3(class="intro-rust-r size-50") The super salad 
+        .CustomizePopup__txt
+         p(class="sofia-r size-15 grey")
+            |Brown the beef better. Lean ground beef – I like to use 85% lean angus. Garlic – use fresh  chopped. Spices – chili   powder, cumin, onion powder.  
+        form(class="addtocartForm")
+            .CustomizePopup__Price(class="intro-rust-r size-30")
+             span(class="yellow-2") $
+             span 5.50
+        
+            .CustomizePopup__alladdon
+                include addon-1
+                include addon-2
+                include addon-3
+            div(class="addtocartsubmit")
+                .CustomizePopup__footer
+          
+                    .CustomizePopup__footer--back  
+                     a(href="#" class="sofia-semibold size-15") Back
+                    .CustomizePopup__footer--counter 
+                     span(class="decrement") -
+                     input(class="sofia-semibold size-16 numcount noSelect" type="text" value="02" name="counter")
+                     span(class="increment") +
+                    button(class="CustomizePopup__footer--addtocart" type="submit")
+                     div.img
+                        img(src="../imgs/lock.png")
+                     span(class="sofia-r size-16 white") Add to cart
+      
+      
+        
+    

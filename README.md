@@ -1,9 +1,8 @@
 # Food-Order-App-UI
 
 Implement UI Of Food Ordering App
+Deliver Fully Responsive Layout for all screens
 
-## Deliver Fully Responsive Layout for all screens
+Compatible & LightWeight Code
 
-## Compatible & LightWeight Code
-
-## Validate Forms By across Client Side (javaScript)
+Validate Forms By across Client Side (javaScript)
